@@ -7,7 +7,7 @@ export const createEventStream = (
   createEffect(() => {
     const eventSource = new EventSource(url);
 
-    eventSource.addEventListener("example", (event) => {
+    eventSource.addEventListener("message", (event) => {
       onMessage(event);
     });
 
