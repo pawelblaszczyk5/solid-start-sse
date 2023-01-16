@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@solidjs/meta': ^0.28.2
   '@solidjs/router': ^0.6.0
+  '@tsconfig/strictest': ^1.0.2
   '@types/node': ^18.11.18
   esbuild: ^0.17.1
   postcss: ^8.4.21
@@ -21,6 +22,7 @@ dependencies:
   undici: 5.15.0
 
 devDependencies:
+  '@tsconfig/strictest': 1.0.2
   '@types/node': 18.11.18
   esbuild: 0.17.1
   postcss: 8.4.21
@@ -1660,6 +1662,10 @@ packages:
       solid-js: ^1.5.3
     dependencies:
       solid-js: 1.6.9
+
+  /@tsconfig/strictest/1.0.2:
+    resolution: {integrity: sha512-IRKlC8cnP7zMz1SDBjyIVyPapkEGWLZ6wkF6Z8T+xU80P9sO5uGXlIUvtzjx+7ehPJRWxkB6CeIDwUfyqNtYkQ==}
+    dev: true
 
   /@types/cookie/0.5.1:
     resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
